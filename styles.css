@@ -34,6 +34,7 @@ body{
     align-items: center;
 }
 #menu li a{
+    text-decoration: none;
     color: white;
     font-weight: bold;
     padding: 15px;
@@ -56,7 +57,7 @@ body{
     grid-area: v;
     padding: 20px;
 }
-#player video{
+#player iframe{
     width: 100%;
 }
 #player textarea{
@@ -85,7 +86,7 @@ body{
 #footer{
     grid-area: f;
     text-align: center;
-    line-height: 30px;
-    font-size: 12px;
+    line-height: 40px;
+    font-size: 16px;
     background-color: rgba(83, 82, 82, 0.5);
 }
